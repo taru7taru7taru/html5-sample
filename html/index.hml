@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>demo html5 雑記帳</title>
+    <meta name="description" content="html5の勉強を兼ねて興味のあることを気ままに公開します。">
+    <meta name="keywords" content="簿記３級">
+    <link rel="stylesheet" href="../css/html5reset-1.6.1.css">
+    <link rel="stylesheet" href="../css/basicStyle.css">
+
+<!-- IE9以下のブラウザで表示するためのお呪い -->
+<!--[if lt IE 9]>
+     <script src="../js/html5shiv/html5shiv.js"></script>
+<![endif]-->
+</head>
+ 
+<body>
+<div id="wrapper">
+    <header>
+   	<a href="#" class="logo">
+	    <img src="../img/logologo.png" alt="logo" width="315" height="100">
+	</a>
+	<nav>
+		<ul>
+			<li><a href="#">ホーム</a></li>
+			<li><a href="#">自己紹介</a></li>
+			<li><a href="#">お問合せ</a></li>
+		</ul>
+	</nav>
+    </header>
+
+    <div id="frontCover">
+	    <img src="../img/WP_20180625_18_05_00_Pro.jpg" alt="favorite cat" width="800" height="400">
+	    <p>雑記帳です。</p>
+    </div>	<!-- /#frontCover -->
+
+    <section id="projects">
+	<h1>興味のあること</h1>
+		<ul>
+		<li><a href="#">フットボール観戦</a></li>
+		<li><a href="#">簿記３級</a></li>
+		<li><a href="#">アンドロイドアプリ開発</a></li>
+		</ul>
+    </section>
+
+    <sectoin id="about">
+    	<h1>自己紹介</h1>
+   	<a href="#" class="logo">
+	    <img src="../img/self-portreit.png" alt="self-portreit" width="100" height="100">
+	</a>
+	<p>こんにちわ。虎夫です。興味のあることを雑多に公開していきます。
+	</p>
+    </sectoin><!-- /#about -->
+
+    <footer>
+    	<p>
+		<small>
+			By <a href="#">虎夫</a>&copy; 2018
+		</small>
+	</p>
+    </footer>
+
+</div>
+</body>
+</html>

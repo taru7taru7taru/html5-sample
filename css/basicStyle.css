@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+body{
+     background: #ebe6d3 url(images/bg.jpg) repeat-x;
+     font: 16px/20px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",'メイリオ',Meiryo,Helvetica,Arial,Sans-Serif;
+     color: #666;
+}
+ 
+a{ color: #69c;}
+     a:hover{color:#069;}
+
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
+}
+
+#frontCover{
+    background: url(images/shadow.png) no-repeat center 400px;
+    margin-bottom: 70px;
+}
+    #frontCover img{border: 5px #fff solid;}
+    #frontCover p{
+	font-size: 160%;
+	text-align: center;
+	margin-top: 30px;
+    }
+
+#projects{
+    width: 700px;
+    float: left;
+    margin-right: 30px;
+}
+    #projects h1, #about h1{
+	font-size: 125%;
+	border-left: 5px #d95483 solid;
+	padding-left: 10px;
+	margin-bottom: 15px;
+    }
+    #projects a{
+	display: block;
+	margin: 0 20px 20px 0;
+	border: 5px #fff solid;
+    }
+	#projects a:hover{border: 5px #69c solid;}
+
+#about{
+    width: 250px;
+    float: left;
+}
+
+header .logo{float: left;}
+
+nav{
+    float: right;
+    margin-top: 35px;
+    font-size: 125%;
+}
+    nav li{
+	display: inline;
+	margin-left: 30px;
+    }
+    nav a{
+	color: #666;
+	text-decoration: none;
+    }
+    nav a:hover{color: #69c;}
+
+
+footer:before{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer p{
+    background: #69c;
+    width: 200px;
+    margin: 50px auto 20px;
+    padding: 5px;
+    text-align: center;
+    font-size: 75%;
+}
+    footer p small{
+	color: #fff;
+	border: 1px #fff solid;
+	padding: 10px;
+	display: block;
+    }
+    footer a{color: #fff}
+
